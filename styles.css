@@ -1,3 +1,79 @@
-h1{
-    color: red;
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+
+}
+
+header{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1{
+    margin-bottom: 0.5;
+}
+
+header nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li{
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav a{
+    color: blue;
+    text-decoration: none;
+}
+
+section{
+    padding: 2rem;
+    margin: 1rem auto;
+    max-height: 800px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1)
+    border: radius 8px;
+}
+
+section h2{
+    color: blue;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5rem;
+}
+
+projet{
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+projet h3{
+    margin-top: 0;
+}
+
+footer{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: aqua;
+    color: black;
+    margin-top: 2rem;
+}
+
+img{
+    display: block;
+    margin: 0 auto 1rem;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
 }
